@@ -1,0 +1,9 @@
+{
+  "name": "status-avatars-media-publisher",
+  "private": true,
+  "description": "Runs on a GitHub Actions schedule (see .github/workflows/publish-mints.yml) to render and publish avatar images for new mini-app mints, so this never depends on anyone's personal computer being on.",
+  "dependencies": {
+    "playwright-core": "^1.47.0",
+    "@ton/core": "^0.59.0"
+  }
+}
